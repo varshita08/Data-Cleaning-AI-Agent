@@ -1,0 +1,21 @@
+DATA CLEANING AGENT - REPORT
+==================================
+Input file: sample_input.csv
+Original rows: 6
+Cleaned rows: 5
+Number of columns: 5
+
+Actions performed:
+- Removed 1 duplicate row(s).
+- Filled 1 missing value(s) in 'Age' with the median (29.0).
+- Filled 1 missing value(s) in 'City' with the most common value ('Hyderabad').
+- Filled 1 missing value(s) in 'Salary' with the median (45000.0).
+- Filled 1 missing value(s) in 'Join_Date' with the most common value ('15-03-2024').
+- Standardised date format in 'Join_Date'.
+
+Missing values after cleaning:
+- Name: 0
+- Age: 0
+- City: 0
+- Salary: 0
+- Join_Date: 0
